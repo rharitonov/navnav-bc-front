@@ -4,6 +4,7 @@ page 50121 "Navnav Request Log"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "Navnav Request Log";
+    SourceTableView = order(descending);
 
     layout
     {
@@ -13,16 +14,12 @@ page 50121 "Navnav Request Log"
             {
                 field("Entry No."; Rec."Entry No.")
                 {
+                    Visible = false;
                     ApplicationArea = All;
 
                 }
 
                 field(User; Rec.User)
-                {
-                    ApplicationArea = All;
-
-                }
-                field("Remote Host"; Rec."Remote Host")
                 {
                     ApplicationArea = All;
 
@@ -33,22 +30,29 @@ page 50121 "Navnav Request Log"
                     ApplicationArea = All;
 
                 }
+                field("Reqest Datetime"; Rec."Reqest Datetime")
+                {
+                    ApplicationArea = All;
+
+                }
                 field("Get Original Object"; Rec."Get Original Object")
                 {
                     ApplicationArea = All;
 
                 }
 
-                field("Get Xliff Data"; Rec."Get Xliff Data")
+                field("Get Translations"; Rec."Get Translations")
                 {
                     ApplicationArea = All;
 
                 }
-                field("Reqest Datetime"; Rec."Reqest Datetime")
+
+                field("Remote Host"; Rec."Remote Host")
                 {
                     ApplicationArea = All;
 
                 }
+
                 field(Status; Rec.Status)
                 {
                     ApplicationArea = All;

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="navnav-bc-font">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 881745739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Navnav Object Cache</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Object Cache - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881745739 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Object Cache - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 881745739 - Field 2720485332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Object Cache - Field Source Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2685055455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Navnav Request Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Request Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2685055455 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Request Log - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2685055455 - Field 2581352342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Original Object</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Request Log - Field Get Original Object - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2685055455 - Field 140947538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Translations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Request Log - Field Get Translations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2685055455 - Field 149901272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote Host</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Request Log - Field Remote Host - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2685055455 - Field 3754196967 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reqest Datetime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Request Log - Field Reqest Datetime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2685055455 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Request Log - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2685055455 - Field 513339096 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ok,Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Request Log - Field Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2685055455 - Field 2027222872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Convert Object ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Request Log - Field To Convert Object ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2685055455 - Field 1814464443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Navnav Request Log - Field User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 910975156 - Method 986863500" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GimmeAL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Navnav API - Method GimmeAL</note>
+        </trans-unit>
+        <trans-unit id="Page 881745739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Navnav Object Cache</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Navnav Object Cache - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 881745739 - Control 3155447388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Navnav Object Cache - Control  Source Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 881745739 - Control 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Navnav Object Cache - Control ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 881745739 - Action 3141956763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Impot file of text objects</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Navnav Object Cache - Action ImportFileOfTextObjects - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2685055455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Navnav Request Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Navnav Request Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2685055455 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ActionName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Navnav Request Log - Action ActionName - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

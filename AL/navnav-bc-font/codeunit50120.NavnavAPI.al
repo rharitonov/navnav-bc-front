@@ -5,7 +5,7 @@ codeunit 50120 "Navnav API"
 
     end;
 
-    procedure GimmeAL(JsonParam: Text; ToConvertObjectID: Text; var ConvertedObject: Text; var OriginalObject: Text; var XliffData: Text) Result: Text
+    procedure GimmeAL(JsonParam: Text; ToConvertObjectID: Text; var ConvertedObject: Text; var OriginalObject: Text; var Translations: Text) Result: Text
     var
         ObjCache: Record "Navnav Object Cache";
         Log: Record "Navnav Request Log";
@@ -14,6 +14,7 @@ codeunit 50120 "Navnav API"
         ff: File;
         InputFile: Label 'c:\Users\Administrator\src\navnav\txt\input.txt', Locked = true;
         OutputFile: Label 'c:\Users\Administrator\src\navnav\txt\output.txt', Locked = true;
+        TranslationsFile: Label 'c:\Users\Administrator\src\navnav\txt\translations.txt', Locked = true;
     begin
         CreateLogEntry(Log, JsonParam, ToConvertObjectID);
 
@@ -28,6 +29,7 @@ codeunit 50120 "Navnav API"
                     ObjCache."Source Code".CreateInStream(InStream1, TextEncoding::MSDos);
                     InStream1.Read(OriginalObject);
                 end;
+
                 ObjCache."Source Code".CreateInStream(InStream1, TextEncoding::MSDos);
                 ff.Create(InputFile, TextEncoding::MSDos);
                 ff.CreateOutStream(OutStream1);
@@ -39,13 +41,21 @@ codeunit 50120 "Navnav API"
                 ff.Open(OutputFile, TextEncoding::UTF8);
                 ff.CreateInStream(InStream1);
                 InStream1.Read(ConvertedObject);
+                ff.Close();
+
+                if log."Get Translations" then begin
+                    ff.Open(TranslationsFile, TextEncoding::UTF8);
+                    ff.CreateInStream(InStream1);
+                    InStream1.Read(Translations);
+                    ff.Close();
+                end;
 
             end;
         end;
 
         Log.Status := Log.Status::Ok;
         Log.Modify;
-        Result := 'Navnav 0.5.1. Copyright by HR:)';
+        Result := 'Navnav 21.05.0b. Copyright by HR:)';
     end;
 
 
@@ -88,7 +98,7 @@ codeunit 50120 "Navnav API"
         NavnavLog.User := GetJsonValueAsText(JObject, 'User');
         NavnavLog."Remote Host" := GetJsonValueAsText(JObject, 'RemoteHost');
         NavnavLog."Get Original Object" := GetJsonValueAsBool(JObject, 'GetOriganalObject');
-        NavnavLog."Get Xliff Data" := GetJsonValueAsBool(JObject, 'GetXliffData');
+        NavnavLog."Get Translations" := GetJsonValueAsBool(JObject, 'GetTranslations');
         NavnavLog."To Convert Object ID" := ObjectID;
         NavnavLog."Reqest Datetime" := CurrentDateTime;
         NavnavLog.Status := NavnavLog.Status::Error;

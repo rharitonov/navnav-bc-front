@@ -13,11 +13,13 @@ page 50120 "Navnav Object Cache"
             {
                 field(ID; rec.ID)
                 {
+                    Caption = 'ID';
                     ApplicationArea = All;
 
                 }
                 field(" Source Code"; Rec."Source Code")
                 {
+                    Caption = 'Source Code';
                     ApplicationArea = All;
 
                 }
@@ -53,7 +55,7 @@ page 50120 "Navnav Object Cache"
                     TempBlob: Codeunit "Temp Blob";
                     Wnd: Dialog;
                 begin
-                    BaseFolder := 'C:\Users\Administrator\YandexDisk-rharitonov\~NavNav\bonava-old-bojects\';
+                    BaseFolder := 'c:\Temp\bonava\';
                     If not UploadIntoStream('Select SCV File', BaseFolder, '(*.csv)|*.csv', FileName, InStream1) then
                         exit;
 
@@ -85,6 +87,8 @@ page 50120 "Navnav Object Cache"
                         Error('Empty');
                     Message('Imported: %1 of %2', C, MaxRowNo);
                 end;
+
+
 
             }
         }

@@ -27,7 +27,7 @@ table 50121 "Navnav Request Log"
             DataClassification = ToBeClassified;
 
         }
-        field(33; "Get Xliff Data"; Boolean)
+        field(33; "Get Translations"; Boolean)
         {
             DataClassification = ToBeClassified;
 
